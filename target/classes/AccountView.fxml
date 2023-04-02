@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="575.0" prefWidth="436.0" style="-fx-background-color: rgb(2,0,36); -fx-background-color: linear-gradient(to left top, blue, red);" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bank.view.viewController.AccountViewController">
+   <children>
+      <Text layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to MyAppBanking">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="23.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account number:" wrappingWidth="178.1367244720459">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="accNumber" layoutX="221.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="200.53668212890625">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="88.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MyBalance:">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="balance" layoutX="40.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Button layoutX="274.0" layoutY="175.0" mnemonicParsing="false" onAction="#sendButton" prefHeight="48.0" prefWidth="114.0" text="Send money" />
+      <ListView fx:id="transactions" editable="true" fixedCellSize="50.0" layoutX="30.0" layoutY="266.0" prefHeight="308.0" prefWidth="374.0" />
+   </children>
+</AnchorPane>

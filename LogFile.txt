@@ -1,0 +1,14 @@
+2023/03/20 17:20:59 Error while account info request
+2023/03/20 17:26:36 Error while account info request
+2023/03/20 17:29:53 Error while account info request
+2023/03/20 17:36:27 Error while account info request
+2023/03/20 17:38:16 Error while account info request
+2023/03/20 17:39:26 Error while account info request
+2023/03/20 17:41:58 Error while sending money
+2023/03/25 08:52:20 Error while sending money
+2023/03/25 09:13:47 Error while sending money
+2023/03/25 10:37:40 Error while getting transactions
+2023/04/01 10:28:07 Error while logging in
+2023/04/01 10:28:56 Error while logging in
+2023/04/01 10:39:33 Error while logging in
+2023/04/01 20:43:39 Error while logging in
